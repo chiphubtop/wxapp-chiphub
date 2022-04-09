@@ -1,8 +1,8 @@
 var HOST_URI = 'https://chiphub.top/api/v3/';
 
 var GET_TOPICS = 'topics.json';
-var GET_TOPIC_BY_ID = 'topics/';
-var GET_TOPIC_ADS = 'ads.json';
+var GET_TOPIC_BY_ID = 'topics/'; 
+var GET_TOPIC_ADS = 'ads.json'; // todo not supported
 var GET_TOPIC_REPLIES = '/replies.json'
 
 function obj2uri (obj) {

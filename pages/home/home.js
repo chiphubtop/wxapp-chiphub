@@ -9,7 +9,7 @@ Page({
     title: "话题列表",
     type: "recent",
     offset: 0,
-    listMargin: 0,
+    listMargin: 36, //todo
     recent: '#000000',
     popular: '#cbcccd',
     no_reply: '#cbcccd',
@@ -112,7 +112,7 @@ Page({
       })
     }else {
       self.setData({
-        listMargin: 0
+        listMargin: 36 //todo 
       })
     }
     self.setData({

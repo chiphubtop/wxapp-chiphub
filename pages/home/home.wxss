@@ -28,22 +28,22 @@
   margin-left: 10px;
 }
 .celltext{
-  font-size: 18px;
+  font-size: 12px;
   margin-bottom: 16px;
 }
 .celldetail {
-  font-size: 16px;
+  font-size: 12px;
   max-height: 2em;
   color: grey;
   overflow:hidden;
 }
 .cellrow {
-    margin-top: 10px;
+    /* margin-top: 10px; */
     flex-direction: row;
 }
 
 .celltip {
-    font-size: 14px;
+    font-size: 10px;
     position:absolute;
     margin-top: 5px;
     right:10px;

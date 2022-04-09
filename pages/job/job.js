@@ -13,7 +13,7 @@ Page({
     wx.showLoading({
       title: '加载中',
     });
-    this.fetchData({node_id: 19});
+    this.fetchData({node_id: 25});
   },
 
   fetchData: function (data) {
@@ -53,7 +53,7 @@ Page({
 
   pullDownRefresh: function () {
     var self = this;
-    this.fetchData({node_id: 19});
+    this.fetchData({node_id: 25});
     console.log('下拉刷新', new Date());
   },
   
